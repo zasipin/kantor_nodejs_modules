@@ -1,3 +1,5 @@
+// module.exports = exports = this
+
 var phrases = require("./ru");
 
 function User(name) {
@@ -10,6 +12,6 @@ User.prototype.hello = function(who) {
 
 console.log("user is required");
 
-exports.User = User;
+module.exports = User;
 
 // console.log(module);
